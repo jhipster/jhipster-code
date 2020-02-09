@@ -169,7 +169,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 70px;
+  height: 75px;
   padding: 15px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
@@ -198,8 +198,7 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  max-height: 60px;
 }
 
 .main-pages {
@@ -577,7 +576,7 @@ h6 {
   transition: 0.5s;
 }
 
-/* Services Section
+/* Tickets Section
 --------------------------------*/
 
 #tickets {
@@ -640,22 +639,22 @@ h6 {
 /* Why Us Section
 --------------------------------*/
 
-#why-us {
+#agenda {
   padding: 60px 0;
 }
 
-#why-us .why-us-content .features {
+#agenda .agenda-content .features {
   margin: 0 0 15px 0;
   padding: 0;
   transition: 0.3s ease-in-out;
 }
 
-#why-us .why-us-content .features i {
+#agenda .agenda-content .features i {
   font-size: 36px;
   float: left;
 }
 
-#why-us .why-us-content .features h4 {
+#agenda .agenda-content .features h4 {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
@@ -663,7 +662,7 @@ h6 {
   margin-bottom: 5px;
 }
 
-#why-us .why-us-content .features p {
+#agenda .agenda-content .features p {
   font-size: 16px;
   margin-left: 56px;
   color: #555186;
@@ -1030,31 +1029,31 @@ h6 {
   margin: 0 2px;
 }
 
-/* Clients Section
+/* sponsors Section
 --------------------------------*/
 
-#clients {
+#sponsors {
   padding: 60px 0;
 }
 
-#clients img {
+#sponsors img {
   max-width: 80%;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
 }
 
-#clients img:hover {
+#sponsors img:hover {
   opacity: 1;
 }
 
-#clients .owl-nav,
-#clients .owl-dots {
+#sponsors .owl-nav,
+#sponsors .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-#clients .owl-dot {
+#sponsors .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -1063,7 +1062,7 @@ h6 {
   background-color: #ddd;
 }
 
-#clients .owl-dot.active {
+#sponsors .owl-dot.active {
   background-color: #1bb1dc;
 }
 
@@ -1502,7 +1501,7 @@ h6 {
     padding: 8px 0;
   }
 
-  #why-us .why-us-content {
+  #agenda .agenda-content {
     padding-top: 30px;
   }
 
