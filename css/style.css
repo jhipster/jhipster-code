@@ -170,7 +170,7 @@ h6 {
 #header.header-scrolled,
 #header.header-pages {
   height: 75px;
-  padding: 15px 0;
+  padding: 10px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
