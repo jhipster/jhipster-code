@@ -39,9 +39,7 @@
   </head>
 
   <body>
-    <!--==========================
-  Header
-  ============================-->
+    <!--========================== Header ============================-->
     <header id="header">
       <div id="topbar">
         <div class="container">
@@ -76,9 +74,7 @@
     </header>
     <!-- #header -->
 
-    <!--==========================
-    Intro Section
-  ============================-->
+    <!--========================== Intro Section ============================-->
     <section id="intro" class="clearfix">
       <div class="container d-flex h-100 flex-column justify-content-center">
         <div class="row justify-content-center align-self-center">
@@ -110,7 +106,7 @@
             <p>Tracks</p>
           </div>
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">500,000</span>
+            <span data-toggle="counter-up" class="text-show-k">500,000</span>
             <p>Lines of code to improve</p>
           </div>
         </div>
@@ -119,9 +115,7 @@
     <!-- #intro -->
 
     <main id="main">
-      <!--==========================
-      About Us Section
-    ============================-->
+      <!--========================== About Us Section ============================-->
       <section id="about">
         <div class="container">
           <header class="section-header">
@@ -130,7 +124,7 @@
 
           <div class="row">
             <div class="col-12">
-              <div class="about-content">
+              <div class="about-content special-list">
                 <p>
                   JHipster Code isn't your usual conference: we come here to code, learn, share and eventually contribute to Open Source.
                 </p>
@@ -144,9 +138,9 @@
                 </p>
                 <ul>
                   <li>
-                    <i class="ion-android-checkmark-circle"></i> The conference will take place in Bordeaux, France, at the 
+                    <i class="ion-android-checkmark-circle"></i> The conference will take place in Bordeaux, France, at the
                     <a href="https://www.locomotiv.com/privatisation/">Locomotiv'</a>.
-                    Here is the <a href="https://www.google.fr/maps/place/Acadomia/@44.8419667,-0.5774166,17z/data=!3m1!4b1!4m5!3m4!1s0xd5527dd7d48db9b:0xc9a87e817cea9290!8m2!3d44.8419629!4d-0.5752279">link on Google Maps</a>.
+                    Here is the <a href="https://www.google.fr/maps/place/Acadomia/@44.8419667,-0.5774166,17z/data=!3m1!4b1!4m5!3m4!1s0xd5527dd7d48db9b:0xc9a87e817cea9290!8m2!3d44.8419629!4d-0.5752279">Google Maps</a> link.
                   </li>
                   <li>
                     <i class="ion-android-checkmark-circle"></i> The conference will happen on Friday, June 26th,
@@ -165,29 +159,56 @@
       </section>
       <!-- #about -->
 
-      <!--==========================
-      Sponsors Section
-    ============================-->
-    <section id="sponsors" class="wow fadeInUp">
-      <div class="container">
-        <header class="section-header">
-          <h3>Sponsors</h3>
-          <p>This event couldn't happen without our awesome sponsors!</p>
-        </header>
+      <!--========================== Sponsors Section ============================-->
+      <section id="sponsors" class="wow fadeInUp section-bg">
+        <div class="container">
+          <header class="section-header">
+            <h3>Sponsors</h3>
+            <p>This event couldn't happen without our awesome sponsors!</p>
+          </header>
 
-        <div class="text-center">
-          <a href="https://www.heroku.com/"><img src="img/clients/heroku.png" alt="" /></a>
+          <div class="text-center">
+            <a href="https://www.heroku.com/"><img src="img/clients/heroku.png" alt="" /></a>
+          </div>
+
+          <div class="text-center pt-5"><a href="#sponsorship">Do you want to sponsor the conference?</a></div>
         </div>
 
-        <div><a href="#sponsorship">Do you want to sponsor the conference?</a></div>
-      </div>
-      
-    </section>
-    <!-- #clients -->
+      </section>
+      <!-- #Sponsors -->
 
-      <!--==========================
-      Services Section
-    ============================-->
+      <!--========================== Agenda Section ============================-->
+      <section id="agenda">
+        <div class="container">
+          <header class="section-header">
+            <h3>Agenda</h3>
+            <p>The conference lasts a whole day, and includes breakfast, lunch and dinner.</p>
+          </header>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="agenda-content p-5 special-list">
+                <ul>
+                  <li><strong>08:30</strong> Registration and breakfast<br/></li>
+                  <li><strong>09:00</strong> Keynote by the 3 JHipster project leads (Julien Dubois, Deepu K Sasidharan, Pascal Grimaud)<br/></li>
+                  <li><strong>09:40</strong> Presentation of the different groups<br/></li>
+                  <li><strong>10:00</strong> Code !<br/></li>
+                  <li><strong>12:00</strong> Lunch<br/></li>
+                  <li><strong>13:00</strong> More code !!<br/></li>
+                  <li><strong>16:00</strong> Break<br/></li>
+                  <li><strong>16:30</strong> Even more code!!!<br/></li>
+                  <li><strong>18:30</strong> Wrap up and final keynote<br/></li>
+                  <li><strong>20:00</strong> Dinner<br/></li>
+                  <li><strong>23:00</strong> End of the event (at least officially!)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #Agenda -->
+
+      <!--========================== Tickets Section ============================-->
       <section id="tickets" class="section-bg">
         <div class="container">
           <header class="section-header">
@@ -246,160 +267,112 @@
           </div>
         </div>
       </section>
-      <!-- #services -->
+      <!-- #Tickets -->
 
-      <!--==========================
-      Why Us Section
-    ============================-->
-      <section id="agenda" class="wow fadeIn">
+      <!--========================== Tracks ============================-->
+      <section id="tracks">
         <div class="container">
-          <header class="section-header">
-            <h3>Agenda</h3>
-            <p>The conference lasts a whole day, and includes breakfast, lunch and dinner.</p>
-          </header>
-
-          <div class="row">
-            <div class="col-12">
-              <div class="agenda-content p-5">
-                <p>
-                  <strong>08:30</strong> Registration and breakfast<br/>
-                  <strong>09:00</strong> Keynote by the 3 JHipster project leads (Julien Dubois, Deepu K Sasidharan, Pascal Grimaud)<br/>
-                  <strong>09:40</strong> Presentation of the different groups<br/>
-                  <strong>10:00</strong> Code !<br/>
-                  <strong>12:00</strong> Lunch<br/>
-                  <strong>13:00</strong> More code !!<br/>
-                  <strong>16:00</strong> Break<br/>
-                  <strong>16:30</strong> Even more code!!!<br/>
-                  <strong>18:30</strong> Wrap up and final keynote<br/>
-                  <strong>20:00</strong> Dinner<br/>
-                  <strong>23:00</strong> End of the event (at least officially!)
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==========================
-      Tracks
-    ============================-->
-      <section id="tracks" class="section-bg">
-        <div class="container">
-          <header class="section-header">
-            <br/><br/>
+          <header class="section-header pt-5">
             <h3>Tracks</h3>
             <p>This is a work in progress and will be officially announced one month before the conference. The list below is a sample of what we could propose.</p>
           </header>
 
           <div class="row">
-            <div class="col-12">
+            <div class="col-12 special-list">
               <p>All these tracks will be lead by core team members of the project.</p>
-              <p>
-                <i class="ion-android-checkmark-circle"></i> JHipster 7 strategy and roadmap<br/>
-                <i class="ion-android-checkmark-circle"></i> Contributing to JHipster for beginners<br/>
-                <i class="ion-android-checkmark-circle"></i> Code reviews and pull requests merges<br/>
-                <i class="ion-android-checkmark-circle"></i> Improving the JHipster experience when deploying to the cloud<br/>
-                <i class="ion-android-checkmark-circle"></i> Domain-driven design with JHipster<br/>
-                <i class="ion-android-checkmark-circle"></i> Simplifying the generated code<br/>
-                <i class="ion-android-checkmark-circle"></i> The VueJs sub-generator<br/>
-                <i class="ion-android-checkmark-circle"></i> Kubernetes deployment workshop<br/>
-                <i class="ion-android-checkmark-circle"></i> JHipster for Blockchain<br/>
-              </p>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> JHipster 7 strategy and roadmap<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Contributing to JHipster for beginners<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Code reviews and pull requests merges<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Improving the JHipster experience when deploying to the cloud<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Domain-driven design with JHipster<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Simplifying the generated code<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> The VueJs sub-generator<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Kubernetes deployment workshop<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> JHipster for Blockchain<br/></li>
+              </ul>
               <br/><br/>
             </div>
           </div>
       </section>
       <!-- #tracks -->
 
-        <!--==========================
-      Diversity and inclusion
-    ============================-->
-    <section id="diversity" class="wow fadeIn">
-      <div class="container">
-        <header class="section-header">
-          <br/><br/>
-          <h3>Diversity and inclusion</h3>
-          <p>The conference lasts a whole day, and includes breakfast, lunch and dinner.</p>
-        </header>
+      <!--========================== Diversity and inclusion ============================-->
+      <section id="diversity" class="pb-5 section-bg">
+        <div class="container">
+          <header class="section-header pb-5 pt-5">
+            <h3>Diversity and inclusion</h3>
+          </header>
 
-        <div class="row">
-          <div class="col-12">
-            <p>
-              Diversity and inclusion is a huge issue in IT, and even more in Open Source.
-            </p>
-            <p>
-              This is why we have 5 free "diversity tickets" that are reserved for women who want to get started in contributing to Open Source.
-            </p>
-            <p>
-              If you are a woman and want to join us, please contact us at <a href="mailto:jhipster-developers-association@googlegroups.com">jhipster-developers-association@googlegroups.com</a>
-            </p>
-            <p>
-              Please note that this conference has a <a href="#coc">Code of Conduct</a>.
-            </p>
+          <div class="row">
+            <div class="col-12">
+              <p>
+                Diversity and inclusion is a huge issue in IT, and even more in Open Source.
+              </p>
+              <p>
+                This is why we have 5 free "diversity tickets" that are reserved for women who want to get started in contributing to Open Source.
+              </p>
+              <p>
+                If you are a woman and want to join us, please contact us at <a href="mailto:jhipster-developers-association@googlegroups.com">jhipster-developers-association@googlegroups.com</a>
+              </p>
+              <p>
+                Please note that this conference has a <a href="#coc">Code of Conduct</a>.
+              </p>
+            </div>
           </div>
-        </div>
-    </section>
-    <!-- #tracks -->
+      </section>
+      <!-- #tracks -->
 
-     <!--==========================
-      Sponsorship
-    ============================-->
-    <section id="sponsorship" class="section-bg">
-      <div class="container">
-        <header class="section-header">
-          <br/><br/>
-          <h3>Sponsorship information</h3>
-        </header>
+      <!--========================== Sponsorship ============================-->
+      <section id="sponsorship">
+        <div class="container">
+          <header class="section-header pb-5 pt-5">
+            <h3>Sponsorship information</h3>
+          </header>
 
-        <div class="row">
-          <div class="col-12">
-            <p>JHipster Code is organized by the JHipster Developers Association, a French non-profit organization. 
-              As such, we are all volunteers and do not make money out of the conference.</p>
-            <p>
-              But organizing the conference costs money, which is clearly not covered by the ticket prices.
-            </p>
-            <p>
-              Here are the sponsorship details:
-            </p>
-            <p>
-              <i class="ion-android-checkmark-circle"></i> Sponsorship price is 2,500 Euros (VAT included - remember we are a non-profit? We don't pay VAT!).<br/>
-              <i class="ion-android-checkmark-circle"></i> Sponsors will get a booth at the venue.<br/>
-              <i class="ion-android-checkmark-circle"></i> Sponsors will have a 3-minute slot during the opening keynote.<br/>
-              <i class="ion-android-checkmark-circle"></i> Sponsors will have 5 free seats.<br/>
-            </p>
-            <br/><br/>
+          <div class="row">
+            <div class="col-12 special-list">
+              <p>JHipster Code is organized by the JHipster Developers Association, a French non-profit organization.
+                As such, we are all volunteers and do not make money out of the conference.</p>
+              <p>
+                But organizing the conference costs money, which is clearly not covered by the ticket prices.
+              </p>
+              <p>
+                Here are the sponsorship details:
+              </p>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Sponsorship price is 2,500 Euros (VAT included - remember we are a non-profit? We don't pay VAT!).<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Sponsors will get a booth at the venue.<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Sponsors will have a 3-minute slot during the opening keynote.<br/></li>
+                <li><i class="ion-android-checkmark-circle"></i> Sponsors will have 5 free seats.<br/></li>
+              </ul>
+              <br/><br/>
+            </div>
           </div>
-        </div>
-    </section>
-    <!-- #Sponsorship -->
+      </section>
+      <!-- #Sponsorship -->
 
-        <!--==========================
-      Code of conduct
-    ============================-->
-    <section id="coc" class="wow fadeIn">
-      <div class="container">
-        <header class="section-header">
-          <br/><br/>
-          <h3>Code of conduct</h3>
-          <p>When coming to JHipster Code, you agree to follow our Code of conduct.</p>
-        </header>
+      <!--========================== Code of conduct ============================-->
+      <section id="coc" class="pb-5 section-bg">
+        <div class="container">
+          <header class="section-header pt-5">
+            <h3>Code of conduct</h3>
+            <p>When coming to JHipster Code, you agree to follow our Code of conduct.</p>
+          </header>
 
-        <div class="row">
-          <div class="col-12">
-            <p>Like everything that is done by the JHipster Developers Association, the JHipster Code conference follows the 
-              <a href="https://github.com/jhipster/generator-jhipster/blob/master/CODE_OF_CONDUCT.md">JHipster Code of Conduct</a>.</p>
-            <p>Not following the Code of Conduct will get you banned both from the conference and the GitHub projects under the JHipster organization.</p>
+          <div class="row">
+            <div class="col-12">
+              <p>Like everything that is done by the JHipster Developers Association, the JHipster Code conference follows the
+                <a href="https://github.com/jhipster/generator-jhipster/blob/master/CODE_OF_CONDUCT.md">JHipster Code of Conduct</a>.</p>
+              <p>Not following the Code of Conduct will get you banned both from the conference and the GitHub projects under the JHipster organization.</p>
+            </div>
           </div>
-        </div>
-    </section>
-    <!-- #coc -->
-
+      </section>
+      <!-- #coc -->
     </main>
 
-    <!--==========================
-    Footer
-  ============================-->
-    <footer id="footer" class="section-bg">
+    <!--========================== Footer ============================-->
+    <footer id="footer">
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -433,24 +406,25 @@
           </div>
         </div>
       </div>
-
-      <div class="container">
-        <div class="copyright">&copy; Copyright <strong>JHipster Developers Association</strong>. All Rights Reserved</div>
-        <div class="credits">
-          <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-        -->
-          Theme Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="copyright">&copy; Copyright <strong>JHipster Developers Association</strong>. All Rights Reserved</div>
+          <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+          -->
+            Theme Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
         </div>
       </div>
     </footer>
     <!-- #footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <!-- Uncomment below i you want to use a preloader -->
+    <!-- Uncomment below if you want to use a preloader -->
     <!-- <div id="preloader"></div> -->
 
     <!-- JavaScript Libraries -->
@@ -470,5 +444,12 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script>
+      $(document).ready(() => {
+        setTimeout(()=>{
+          $('.text-show-k').text('500k');
+        }, 2000)
+      });
+    </script>
   </body>
 </html>

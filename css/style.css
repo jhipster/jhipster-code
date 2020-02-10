@@ -423,7 +423,7 @@ h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 0;
-  top: 0;
+  top: 5px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -496,6 +496,23 @@ h6 {
   background: #f5f8fd;
 }
 
+/*  lists */
+
+.special-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.special-list ul li {
+  padding-bottom: 10px;
+}
+
+.special-list ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
 /* About Us Section
 --------------------------------*/
 
@@ -518,21 +535,6 @@ h6 {
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
-}
-
-#about .about-content ul {
-  list-style: none;
-  padding: 0;
-}
-
-#about .about-content ul li {
-  padding-bottom: 10px;
-}
-
-#about .about-content ul li i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #1bb1dc;
 }
 
 #about .about-img {
@@ -1225,14 +1227,19 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  padding: 0 0 30px 0;
+  /* padding: 0 0 30px 0; */
   font-size: 14px;
   background: #fff;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
+  /* background: #f5f8fd; */
+}
+
+#footer .footer-bottom {
   background: #f5f8fd;
+  padding: 0 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1493,12 +1500,16 @@ h6 {
 
   #header {
     height: 70px;
-    padding: 15px 0;
+    padding: 10px 0;
   }
 
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 20px;
     padding: 8px 0;
+  }
+
+  #header .container {
+    height: 55px;
   }
 
   #agenda .agenda-content {
